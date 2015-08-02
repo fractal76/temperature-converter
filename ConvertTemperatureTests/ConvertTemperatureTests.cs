@@ -17,7 +17,7 @@ namespace TemperatureConverter.Tests
             float expected = 33.8f;
             float actual = ConvertTemperature.CelsiusToFarenheit(celsius);
             Assert.AreEqual(expected, actual);
-            Assert.Fail();
+            //Assert.Fail();
         }
 
         [TestMethod()]
