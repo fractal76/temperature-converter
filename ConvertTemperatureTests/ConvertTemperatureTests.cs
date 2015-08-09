@@ -203,6 +203,7 @@ namespace TemperatureConverter.Tests
             float expected = -459.67f;
             float actual = float.Parse(ConvertTemperature.CelsiusToFarenheit(celsius).ToString());
             Assert.AreEqual(expected, actual);
+            Assert.AreEqual(1, 2);
         }
 
         [TestMethod()]
